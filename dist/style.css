@@ -38,6 +38,10 @@ ul{
     list-style: none;
 }
 
+li{
+    cursor: pointer;
+}
+
 #hero{
     height: 100vh;
     display: flex;

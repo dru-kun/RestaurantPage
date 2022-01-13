@@ -12,7 +12,7 @@ function pageLoad(){
     tabs.innerHTML = `
     <li id=home>Home</li>
     <li id=menu>Menu</li>
-    <li id=about>About</li>
+    <li id=contact>Contact</li>
     `
     header.appendChild(nav);
     nav.appendChild(logo);
@@ -20,7 +20,7 @@ function pageLoad(){
     content.appendChild(header);
 
     let description = document.createElement('div');
-    description.setAttribute('id', 'hero');
+    description.id = 'hero';
     content.appendChild(description);
     loadHomePage();
 }
