@@ -1,0 +1,55 @@
+:root{
+    --background-light: rgba(0, 0, 0, 0.6);
+}
+
+body{
+    background-image: url('./img/pexels-fauxels-3184192.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position-x: center;
+   background-position-y: center;
+   margin: 0;
+   padding: 0;
+}
+
+h2{
+    color: white;
+}
+
+header{
+    top: 0;
+    position: sticky;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+
+#tabs{
+    display: flex;
+    gap: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#aboutUs{
+    width: 70%;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    padding: 1rem;
+    text-shadow: black;
+}
